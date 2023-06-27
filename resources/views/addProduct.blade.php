@@ -12,7 +12,7 @@
 
         h1 {
             margin-bottom: 20px;
-        }
+        } 
 
         form {
             width: 300px;
