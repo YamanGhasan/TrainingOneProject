@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
  
-Route::get('/products', [ProductController::class, 'show'])->name('products.index'); 
+Route::get('/products', [ProductController::class, 'show'])->name('products.index');  
 Route::get('/products/add', [ProductController::class, 'add'])->name('products.add');
 Route::post('/products/store', [ProductController::class, 'store'])->name('products.store');
 Route::delete('/products/{id}', [ProductController::class, 'delete'])->name('products.delete');
