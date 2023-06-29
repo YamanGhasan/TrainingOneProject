@@ -7,7 +7,7 @@ Route::get('/', function () {
     return "Welcome here is Product list <a href='" . route('products.index') . "'> Go to Products</a>";
 });
 
- 
+  
 Route::get('/products', [ProductController::class, 'show'])->name('products.index');  
 Route::get('/products/add', [ProductController::class, 'add'])->name('products.add');
 Route::post('/products/store', [ProductController::class, 'store'])->name('products.store');
