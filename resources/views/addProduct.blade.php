@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-        }
+        } 
 
         h1 {
             margin-bottom: 20px;
