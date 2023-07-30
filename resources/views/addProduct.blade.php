@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Product</title>
     <style> 
-        body {
+        body { 
             font-family: Arial, sans-serif;
             padding: 20px;
         }  
