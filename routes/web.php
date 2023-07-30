@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
   
-Route::get('/', function () { 
+Route::get('/', function () {  
     return "Welcome here is Product list <a href='" . route('products.index') . "'> Go to Products</a>";
 });
  
